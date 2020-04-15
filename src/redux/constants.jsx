@@ -1,0 +1,8 @@
+export const CONSTANTS = {
+  AUTH: {
+    LOGIN_REQUEST: 'LOGIN_REQUEST'
+  },
+  BLOG_POSTS: {
+    CREATE_POST_REQUEST: 'CREATE_POST_REQUEST'
+  }
+}
