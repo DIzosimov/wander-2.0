@@ -1,10 +1,12 @@
-import React from 'react';
+import React from './node_modules/react';
 import logo from './logo.svg';
-import './App.css';
+
+import cx from './node_modules/classnames';
+import styles from './styles.module.scss';
 
 function App() {
   return (
-    <div className="App">
+    <div className={cx(styles.container)}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

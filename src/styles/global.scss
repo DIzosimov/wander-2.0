@@ -1,0 +1,22 @@
+@import "./partials/fontFace";
+@import "./partials/variables";
+@import "./partials/sizes";
+@import "./partials/colors";
+
+body, html, #root {
+  margin: 0;
+  font-family: $fontPrimary;
+  font-weight: $normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: blue;//$darkBlue;
+
+  background-color: white;//$lightGray;
+
+  width: 100%;
+  height: 100%;
+
+  * {
+    font-family: $fontPrimary;
+  }
+}
